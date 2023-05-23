@@ -1,0 +1,6 @@
+{
+  "manifest":{    
+    "bucket_name": "test-bench",
+    "bucket_prefix": "TBS"
+  }
+}

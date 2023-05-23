@@ -272,8 +272,10 @@ class DocumentSplitterWorkflow(Stack):
 
         # GENERIC
         state_machine = sfn.StateMachine(self,
-                                         workflow_name,
-                                         definition=workflow_chain)
+            workflow_name,
+            definition=workflow_chain,
+
+        )
 
         lambda_step_start_step_function = lambda_.DockerImageFunction(
             self,

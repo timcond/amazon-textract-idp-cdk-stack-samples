@@ -25,5 +25,8 @@ cdk.out/
 
 # local dev stuff
 update_dependencies_local.sh
+install_local_wheel.sh
 node_modules/
 .python-version
+*.code-workspace
+.DS_Store

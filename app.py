@@ -14,6 +14,7 @@ from textract_cdk_stack_samples.document_split_workflow import DocumentSplitterW
 from textract_cdk_stack_samples.lending_workflow import LendingWorkflow
 from textract_cdk_stack_samples.generate_csv_workflow import GenerateCSVWorkflow
 from textract_cdk_stack_samples.simple_searchPDF import SimpleSearchPDF
+from textract_cdk_stack_samples.s3_scale_async_workflow import S3ScaleAsyncWorkflowStack
 
 app = cdk.App()
 
@@ -48,5 +49,6 @@ DocumentSplitterWorkflow(app, "DocumentSplitterWorkflow")
 LendingWorkflow(app, "LendingWorkflow")
 GenerateCSVWorkflow(app, "GenerateCSVWorkflow")
 SimpleSearchPDF(app, "SimpleSearchPDF")
+S3ScaleAsyncWorkflowStack(app, "S3ScaleAsyncWorkflowStack")
 
 app.synth()

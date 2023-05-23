@@ -1,0 +1,9 @@
+{
+  "manifest": {
+    "s3Path": "s3://test-bench/curated_500/W2_XL_input_noisy_1268.jpg"
+  },
+  "textract_result": {
+    "TextractTempOutputJsonPath": "s3://s3scaleasyncworkflowstac-s3scaleasyncworkflowstac-1ofdwhtjqr1jj/textract-temp-output/1fb857dd9bb60d191ff0c7f2cdf35decc97207c338d29fca6c4b1ef442455599",
+    "TextractOutputJsonPath": "s3://s3scaleasyncworkflowstac-s3scaleasyncworkflowstac-1ofdwhtjqr1jj/textract-output/W2_XL_input_noisy_12682023-05-18T03:02:57.021426/W2_XL_input_noisy_1268.json"
+  }
+}
